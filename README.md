@@ -1,2 +1,2 @@
-# My-form-app-
+# My-BMI-app-
 My first app
