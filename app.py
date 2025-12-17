@@ -58,7 +58,7 @@ if st.button("Calculate My BMI! 🚀", type="primary"):
                 st.write(f"Age: {age} years young – next year even stronger! 🚀")
 
             # Save to Google Sheets
-            conn = st.connection("gsheets", type=GSheetsConnection)
+            conn = st.connection("gsheets",url=st.secrets[GSHEETS_URL])
             try:
                 existing = conn.read()
             except:
