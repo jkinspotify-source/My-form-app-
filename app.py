@@ -7,7 +7,7 @@ from datetime import datetime
 def get_gsheets_connection():
     return st.connection("gsheets", type="gsheets")
 
-st.title("Personal Details Form 💪")
+st.title("Your BMI Monitor 💪")
 
 st.write("Please fill in your details below:")
 
