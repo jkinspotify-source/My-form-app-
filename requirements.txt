@@ -1,8 +1,5 @@
 streamlit
-pandas
+st-gsheets-connection
 streamlit-lottie
 requests
-google-auth
-google-auth-oauthlib
-google-auth-httplib2
-gspread
+pandas
