@@ -76,7 +76,7 @@ if st.button("Calculate My BMI! 🚀", type="primary"):
                 "BMI": bmi
             }])
             updated = pd.concat([existing, new_row], ignore_index=True)
-            conn.update(data=updated)
+            conn.update(worksheet="Sheet1",data=updated)
 
             st.success("Your details & BMI saved to sheet! Thank you 📊")
 
